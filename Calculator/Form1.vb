@@ -1,5 +1,5 @@
 ﻿Option Explicit On
-Option Strict Off
+Option Strict On
 
 Public Class frmCalc
 
@@ -38,19 +38,19 @@ Public Class frmCalc
     End Sub
 
     Private Sub cmd6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmd6.Click
-        txtBox.Text = txtBox.Text & cmd6.Text
+        txtBox.Text = txtBox.Text & cmd6.Text 'get 6
     End Sub
 
     Private Sub cmd7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmd7.Click
-        txtBox.Text = txtBox.Text & cmd7.Text
+        txtBox.Text = txtBox.Text & cmd7.Text 'get 7
     End Sub
 
     Private Sub cmd8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmd8.Click
-        txtBox.Text = txtBox.Text & cmd8.Text
+        txtBox.Text = txtBox.Text & cmd8.Text 'get 8
     End Sub
 
     Private Sub cmd9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmd9.Click
-        txtBox.Text = txtBox.Text & cmd9.Text
+        txtBox.Text = txtBox.Text & cmd9.Text 'get 9
     End Sub
 
     Private Sub cmdClear_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdClear.Click
